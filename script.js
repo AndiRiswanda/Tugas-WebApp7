@@ -229,13 +229,13 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log('Color class:', colorClass);
 
             let cardHtml = `
-                <div class="col-md-3 mb-4">
-                    <div class="cardEdit card rounded shadow-sm ${colorClass}">
-                        <div class="card-header">
-                            <h5>${ruangan.nama}</h5>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group">`;
+            <div class="col-md-3 mb-4">
+                <div class="cardEdit card rounded shadow-sm ${colorClass} hover-zoom">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title">${ruangan.nama}</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">`;
 
             console.log('mataKuliah:', ruangan.mataKuliah);
 
