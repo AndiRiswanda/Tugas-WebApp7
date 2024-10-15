@@ -126,6 +126,14 @@ body {
     cursor: pointer;
 }
 
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-brand img{
+    margin-right: 10px;
+}
+
 .nav-item {
     display: flex;
 }
@@ -197,8 +205,13 @@ body {
 }
 
 .card-header {
-    background: linear-gradient(45deg, #88cde0, #032447);
+    background: linear-gradient(45deg, #032447, #88cde0);
     color: #fff;
+}
+
+.card-header h5 {
+    font-weight: bold;
+    color: white;
 }
 
 .card-title {
