@@ -1,3 +1,7 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-image: url('images/bg.png');
     background-size: cover;
@@ -49,6 +53,10 @@ body {
   width: 100%;
 }
 
+.text-jadwal {
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 
 /* Tombol edit, hapus, dan simpan */
