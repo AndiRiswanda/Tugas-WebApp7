@@ -11,6 +11,46 @@ body {
     cursor: pointer;
 }
 
+.nav-item {
+    display: flex;
+}
+
+.nav-item ion-icon {
+    top: 20px;
+    margin-right: 3px;
+    height: 20px;
+    width: 20px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  font-weight: bolder;
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.4s ease;
+}
+
+.menu-list a:hover{
+  color: #007bff;
+}
+
+.menu-list a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  background: #007bff;
+  transition: width 0.4s ease;
+}
+
+.menu-list a:hover::after {
+  width: 100%;
+}
+
+
+
 /* Tombol edit, hapus, dan simpan */
 .btn-hapus {
     background-color: #dc3545;
