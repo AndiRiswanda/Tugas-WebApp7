@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
             let carouselItem = `
                 <div class="carousel-item ${index === 0 ? 'active' : ''}">
                     <div class="container">
-                        <h2 class="text-center mb-4 poppins-semibold text-jadwal" style="color: white;">Jadwal Hari ${hari}</h2>
+                        <h2 class="text-center mb-4 poppins-semibold text-jadwal" style="color: white;">Jadwal Hari <span style="color:#007bff;">${hari}</h2>
                         <div class="row">`;
 
             data.ruangan.forEach((ruangan, i) => {
