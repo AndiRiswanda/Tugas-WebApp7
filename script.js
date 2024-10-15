@@ -30,54 +30,123 @@ document.addEventListener('DOMContentLoaded', function () {
                 nama: "PBT 101",
                 mataKuliah: [
                     { nama: "Matematika Diskrit", mulai: "08:00", berakhir: "10:00", hari: "Senin" },
-                    { nama: "Aljabar Linear", mulai: "10:10", berakhir: "12:00", hari: "Senin" }
+                    { nama: "Aljabar Linear", mulai: "10:10", berakhir: "12:00", hari: "Senin" },
+                    { nama: "Kalkulus I", mulai: "08:00", berakhir: "10:00", hari: "Selasa" },
+                    { nama: "Teori Bilangan", mulai: "10:10", berakhir: "12:00", hari: "Selasa" },
+                    { nama: "Statistika Dasar", mulai: "08:00", berakhir: "10:00", hari: "Rabu" },
+                    { nama: "Matematika Komputasi", mulai: "10:10", berakhir: "12:00", hari: "Rabu" },
+                    { nama: "Persamaan Diferensial", mulai: "08:00", berakhir: "10:00", hari: "Kamis" },
+                    { nama: "Geometri", mulai: "10:10", berakhir: "12:00", hari: "Kamis" },
+                    { nama: "Analisis Real", mulai: "08:00", berakhir: "10:00", hari: "Jumat" },
+                    { nama: "Matematika Terapan", mulai: "10:10", berakhir: "12:00", hari: "Jumat" }
                 ]
             },
             {
                 nama: "PBT 102",
                 mataKuliah: [
-                    { nama: "Kalkulus I", mulai: "08:00", berakhir: "10:00", hari: "Selasa" },
-                    { nama: "Analisis Real", mulai: "10:10", berakhir: "12:00", hari: "Selasa" },
-                    { nama: "Teori Bilangan", mulai: "14:00", berakhir: "16:00", hari: "Selasa" }
+                    { nama: "Kalkulus II", mulai: "08:00", berakhir: "10:00", hari: "Senin" },
+                    { nama: "Aljabar Linear Lanjutan", mulai: "10:10", berakhir: "12:00", hari: "Senin" },
+                    { nama: "Teori Peluang", mulai: "08:00", berakhir: "10:00", hari: "Selasa" },
+                    { nama: "Statistika Lanjut", mulai: "10:10", berakhir: "12:00", hari: "Selasa" },
+                    { nama: "Analisis Kompleks", mulai: "14:00", berakhir: "16:00", hari: "Selasa" },
+                    { nama: "Pemrograman Matematika", mulai: "08:00", berakhir: "10:00", hari: "Rabu" },
+                    { nama: "Algoritma dan Pemrograman", mulai: "10:10", berakhir: "12:00", hari: "Rabu" },
+                    { nama: "Persamaan Diferensial Parsial", mulai: "08:00", berakhir: "10:00", hari: "Kamis" },
+                    { nama: "Topologi", mulai: "10:10", berakhir: "12:00", hari: "Kamis" },
+                    { nama: "Filsafat Matematika", mulai: "09:00", berakhir: "11:00", hari: "Kamis" },
+                    { nama: "Struktur Data", mulai: "12:00", berakhir: "14:00", hari: "Kamis" },
+                    { nama: "Optimisasi", mulai: "08:00", berakhir: "10:00", hari: "Jumat" },
+                    { nama: "Matematika Keuangan", mulai: "10:10", berakhir: "12:00", hari: "Jumat" }
                 ]
             },
             {
                 nama: "PBT 103",
                 mataKuliah: [
-                    { nama: "Pemrograman Dasar", mulai: "08:00", berakhir: "10:00", hari: "Rabu" },
-                    { nama: "Sistem Operasi", mulai: "10:10", berakhir: "12:00", hari: "Rabu" }
+                    { nama: "Kalkulus II", mulai: "08:00", berakhir: "10:00", hari: "Senin" },
+                    { nama: "Geometri Analitik", mulai: "10:10", berakhir: "12:00", hari: "Senin" },
+                    { nama: "Matematika Diskrit Lanjut", mulai: "08:00", berakhir: "10:00", hari: "Selasa" },
+                    { nama: "Teori Grup", mulai: "10:10", berakhir: "12:00", hari: "Selasa" },
+                    { nama: "Statistika Inferensial", mulai: "14:00", berakhir: "16:00", hari: "Selasa" },
+                    { nama: "Pemodelan Matematika", mulai: "08:00", berakhir: "10:00", hari: "Rabu" },
+                    { nama: "Pengantar Kriptografi", mulai: "10:10", berakhir: "12:00", hari: "Rabu" },
+                    { nama: "Metode Numerik", mulai: "08:00", berakhir: "10:00", hari: "Kamis" },
+                    { nama: "Matematika Komputasi Lanjut", mulai: "10:10", berakhir: "12:00", hari: "Kamis" },
+                    { nama: "Desain Data dan Algoritma", mulai: "12:00", berakhir: "14:00", hari: "Kamis" },
+                    { nama: "Analisis Vektor", mulai: "08:00", berakhir: "10:00", hari: "Jumat" },
+                    { nama: "Matematika Aktuaria", mulai: "10:10", berakhir: "12:00", hari: "Jumat" }
                 ]
             },
             {
                 nama: "PBT 104",
                 mataKuliah: [
-                    { nama: "Filsafat Matematika", mulai: "09:00", berakhir: "11:00", hari: "Kamis" },
-                    { nama: "Struktur Data", mulai: "12:00", berakhir: "14:00", hari: "Kamis" }
+                    { nama: "Kalkulus I", mulai: "08:00", berakhir: "10:00", hari: "Senin" },
+                    { nama: "Teori Matriks", mulai: "10:10", berakhir: "12:00", hari: "Senin" },
+                    { nama: "Teori Angka Lanjut", mulai: "08:00", berakhir: "10:00", hari: "Selasa" },
+                    { nama: "Aljabar Abstrak", mulai: "10:10", berakhir: "12:00", hari: "Selasa" },
+                    { nama: "Statistika Multivariat", mulai: "14:00", berakhir: "16:00", hari: "Selasa" },
+                    { nama: "Analisis Fourier", mulai: "08:00", berakhir: "10:00", hari: "Rabu" },
+                    { nama: "Teori Automata", mulai: "10:10", berakhir: "12:00", hari: "Rabu" },
+                    { nama: "Pemrograman Linear", mulai: "08:00", berakhir: "10:00", hari: "Kamis" },
+                    { nama: "Analisis Fungsi Banyak Variabel", mulai: "10:10", berakhir: "12:00", hari: "Kamis" },
+                    { nama: "Desain Data dan Algoritma Lanjut", mulai: "12:10", berakhir: "14:00", hari: "Kamis" },
+                    { nama: "Topologi Lanjut", mulai: "08:00", berakhir: "10:00", hari: "Jumat" },
+                    { nama: "Teori Game", mulai: "10:10", berakhir: "12:00", hari: "Jumat" }
                 ]
             },
             {
                 nama: "PBT 201",
                 mataKuliah: [
-                    { nama: "Statistika Dasar", mulai: "08:00", berakhir: "10:00", hari: "Jumat" },
-                    { nama: "Geometri", mulai: "10:10", berakhir: "12:00", hari: "Jumat" }
+                    { nama: "Kalkulus Lanjut", mulai: "08:00", berakhir: "10:00", hari: "Senin" },
+                    { nama: "Aljabar Linear Lanjut", mulai: "10:10", berakhir: "12:00", hari: "Senin" },
+                    { nama: "Analisis Real Lanjut", mulai: "08:00", berakhir: "10:00", hari: "Selasa" },
+                    { nama: "Teori Bilangan Lanjut", mulai: "10:10", berakhir: "12:00", hari: "Selasa" },
+                    { nama: "Statistika Terapan", mulai: "14:00", berakhir: "16:00", hari: "Selasa" },
+                    { nama: "Pemodelan Matematika Lanjut", mulai: "08:00", berakhir: "10:00", hari: "Rabu" },
+                    { nama: "Metode Numerik Lanjut", mulai: "10:10", berakhir: "12:00", hari: "Rabu" },
+                    { nama: "Persamaan Diferensial Lanjut", mulai: "08:00", berakhir: "10:00", hari: "Kamis" },
+                    { nama: "Teori Probabilitas", mulai: "10:10", berakhir: "12:00", hari: "Kamis" },
+                    { nama: "Struktur Data Lanjut", mulai: "12:00", berakhir: "14:00", hari: "Kamis" },
+                    { nama: "Analisis Vektor Lanjut", mulai: "08:00", berakhir: "10:00", hari: "Jumat" },
+                    { nama: "Matematika Keuangan Lanjut", mulai: "10:10", berakhir: "12:00", hari: "Jumat" }
                 ]
             },
             {
                 nama: "PBT 202",
                 mataKuliah: [
-                    { nama: "Kecerdasan Buatan", mulai: "09:00", berakhir: "11:00", hari: "Senin" }
+                    { nama: "Kalkulus Variabel Banyak", mulai: "08:00", berakhir: "10:00", hari: "Senin" },
+                    { nama: "Teori Grup Lanjut", mulai: "10:10", berakhir: "12:00", hari: "Senin" },
+                    { nama: "Analisis Kompleks", mulai: "08:00", berakhir: "10:00", hari: "Selasa" },
+                    { nama: "Geometri Diferensial", mulai: "10:10", berakhir: "12:00", hari: "Selasa" },
+                    { nama: "Statistika Matematika", mulai: "14:00", berakhir: "16:00", hari: "Selasa" },
+                    { nama: "Pemrograman Matematika", mulai: "08:00", berakhir: "10:00", hari: "Rabu" },
+                    { nama: "Metode Optimisasi", mulai: "10:10", berakhir: "12:00", hari: "Rabu" },
+                    { nama: "Persamaan Diferensial Parsial", mulai: "08:00", berakhir: "10:00", hari: "Kamis" },
+                    { nama: "Analisis Fungsional", mulai: "10:10", berakhir: "12:00", hari: "Kamis" },
+                    { nama: "Desain Data dan Algoritma", mulai: "12:10", berakhir: "14:00", hari: "Kamis" },
+                    { nama: "Topologi Lanjut", mulai: "08:00", berakhir: "10:00", hari: "Jumat" },
+                    { nama: "Teori Pengambilan Keputusan", mulai: "10:10", berakhir: "12:00", hari: "Jumat" }
                 ]
             },
             {
                 nama: "PBT 203",
                 mataKuliah: [
-                    { nama: "Jaringan Komputer", mulai: "09:00", berakhir: "11:00", hari: "Selasa" }
+                    { nama: "Jaringan Komputer", mulai: "09:00", berakhir: "11:00", hari: "Selasa" },
+                    { nama: "Pemrograman Web", mulai: "13:00", berakhir: "15:00", hari: "Selasa" },
+                    { nama: "Basis Data", mulai: "09:00", berakhir: "11:00", hari: "Kamis" },
+                    { nama: "Sistem Operasi", mulai: "13:00", berakhir: "15:00", hari: "Kamis" },
+                    { nama: "Pemrograman Berorientasi Objek", mulai: "09:00", berakhir: "11:00", hari: "Jumat" },
+                    { nama: "Algoritma dan Struktur Data", mulai: "13:00", berakhir: "15:00", hari: "Jumat" }
                 ]
             },
             {
                 nama: "PBT 204",
                 mataKuliah: [
-                    { nama: "Analisis Algoritma", mulai: "09:00", berakhir: "11:00", hari: "Rabu" }
+                    { nama: "Pemrograman Dasar", mulai: "09:00", berakhir: "11:00", hari: "Senin" },
+                    { nama: "Pemrograman Web", mulai: "13:00", berakhir: "15:00", hari: "Senin" },
+                    { nama: "Basis Data", mulai: "09:00", berakhir: "11:00", hari: "Rabu" },
+                    { nama: "Sistem Operasi", mulai: "13:00", berakhir: "15:00", hari: "Rabu" },
+                    { nama: "Pemrograman Berorientasi Objek", mulai: "09:00", berakhir: "11:00", hari: "Kamis" },
+                    { nama: "Algoritma dan Struktur Data", mulai: "13:00", berakhir: "15:00", hari: "Kamis" }
                 ]
             }
         ]
@@ -551,10 +620,6 @@ document.addEventListener('DOMContentLoaded', function () {
         editRuanganModal.show();
     }
 
-
-
-
-
     // Event listener untuk tombol simpan perubahan ruangan
     document.getElementById('saveEditRuangan').addEventListener('click', function () {
         const index = parseInt(document.getElementById('editRuanganIndex').value);
@@ -594,10 +659,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('editNamaRuangan').addEventListener('input', function () {
         console.log('Input value changed:', this.value);
     });
-
-
-
-
 
 
 });
