@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
     lihatJadwalBtn.addEventListener('click', () => switchPage('lihat'));
     editTambahJadwalBtn.addEventListener('click', () => switchPage('edit'));
 
+    // Data jadwal kuliah
     const data = {
         ruangan: [
             {
@@ -268,13 +269,11 @@ document.addEventListener('DOMContentLoaded', function () {
             ruanganContainer.insertAdjacentHTML('beforeend', cardHtml);
         });
 
-        console.log('Adding event listeners to .btn-tambah');
         document.querySelectorAll('.btn-tambah').forEach(button => {
             button.addEventListener('click', function () {
                 let ruanganIndex = this.dataset.ruanganIndex;
                 console.log('Tambah Jadwal clicked, ruanganIndex:', ruanganIndex);
                 if (ruanganIndex === undefined) {
-                    console.error('ruanganIndex is undefined');
                     return;
                 }
                 document.getElementById('tambahRuanganIndex').value = ruanganIndex;
@@ -306,8 +305,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('tambahMulai').value = '';
         document.getElementById('tambahBerakhir').value = '';
         document.getElementById('tambahHari').value = '';
-
-        console.log('renderRooms function completed');
     }
 
     // Render rooms pertama kali
@@ -399,7 +396,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Fungsi validasi untuk memastikan jadwal memenuhi aturan
-    // Full validateInput function
     function validateInput(mulai, berakhir, nama, ruanganIndex, hari, oldName = "") {
         console.log('validateInput called with:', { mulai, berakhir, nama, ruanganIndex, hari, oldName });
 
