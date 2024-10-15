@@ -76,6 +76,34 @@ body {
 
 .cardEdit {
     min-height: 280px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cardEdit:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    background: linear-gradient(45deg, #88cde0, #032447);
+    color: #fff;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: white;
+}
+
+.list-group-item {
+    border: none;
+    padding: 0.75rem 1.25rem;
+}
+
+.list-group-item:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-tambah {
+    font-weight: bold;
 }
 
 .btn-tambah {
