@@ -563,14 +563,19 @@ document.addEventListener('DOMContentLoaded', function () {
         data.ruangan.forEach((room, index) => {
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td>${index + 1}</td>
-                <td>${room.nama}</td>
-                <td>${room.mataKuliah.length}</td>
-                <td>
-                    <button class="btn btn-sm btn-warning edit-ruangan" data-index="${index}">Edit</button>
-                    <button class="btn btn-sm btn-danger hapus-ruangan" data-index="${index}">Hapus</button>
-                </td>
-            `;
+    <td>${index + 1}</td>
+    <td>${room.nama}</td>
+    <td>${room.mataKuliah.length}</td>
+    <td>
+        <button class="btn btn-sm btn-success edit-ruangan" data-index="${index}">
+            <ion-icon name="create-outline"></ion-icon> Edit
+        </button>
+        <button class="btn btn-sm btn-danger hapus-ruangan" data-index="${index}">
+            <ion-icon name="trash-outline"></ion-icon> Hapus
+        </button>
+    </td>
+`;
+
             daftarRuanganBody.appendChild(row);
         });
 
