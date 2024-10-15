@@ -283,3 +283,9 @@ body {
 .page.active {
     display: block;
 }
+
+
+.form-group{
+    background-color: #007bff;
+    border-radius: 10px;
+}
